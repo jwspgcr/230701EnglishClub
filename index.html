@@ -794,11 +794,11 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 							<p>“Well,” they say, “look at this function. It is two pages long! <u>②None of this stuff
 									belongs in there!</u> I don’t know what half of these API calls are for.” </p>
 							<p>Before Borland’s new spreadsheet for Windows shipped, Philippe Kahn, the colorful founder
-								of Borland, was quoted a lot in the press bragging about how Quattro Pro would be much
+								of Borland, was quoted a lot in the press <u>bragging</u> about how Quattro Pro would be much
 								better than Microsoft Excel, because it was written from scratch. All new source code!
 								As if source code <i>rusted</i>.</p>
 							<p></p>
-							<p>The idea that new code is better than old is patently absurd. Old code has been
+							<p>The idea that new code is better than old is <u>patently</u> absurd. Old code has been
 								<i>used</i>. It has been <i>tested</i>. <i>Lots</i> of bugs have been found, and they’ve
 								been <i>fixed</i>. There’s nothing wrong with it. It doesn’t acquire bugs just by
 								sitting around on your hard drive.
@@ -839,13 +839,13 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 							</p>
 							<p>When programmers say that their code is a holy mess (as they always do), there are three
 								kinds of things that are wrong with it.</p>
-							<p>First, there are architectural problems. The code is not factored correctly. The
+							<p>First, there are architectural problems. The code is not <u>factored</u> correctly. The
 								networking code is popping up its own dialog boxes from the middle of nowhere; this
 								should have been handled in the UI code. These problems can be solved, one at a time, by
-								carefully moving code, refactoring, changing interfaces. They can be done by one
-								programmer working carefully and checking in his changes all at once, so that nobody
-								else is disrupted. Even fairly major architectural changes can be done without
-								<i>throwing away the code</i>. On the Juno project we spent several months
+								carefully moving code, refactoring, changing interfaces. <u>⑤They can be done by one
+									programmer working carefully and checking in his changes all at once, so that nobody
+									else is disrupted.</u> Even fairly major architectural changes can be done without
+								<i>throwing away the code</i>. On the <u>Juno project</u> we spent several months
 								rearchitecting at one point: just moving things around, cleaning them up, creating base
 								classes that made sense, and creating sharp interfaces between the modules. But we did
 								it carefully, with our existing code base, and we didn’t introduce new bugs or throw
@@ -855,13 +855,13 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 								The rendering code in Netscape was rumored to be slow. But this only affects a small
 								part of the project, which you can optimize or even rewrite. You don’t have to rewrite
 								the whole thing.
-								<u>⑤When optimizing for speed, 1% of the work gets you 99% of the bang.</u>
+								<u>⑥When optimizing for speed, 1% of the work gets you 99% of the bang.</u>
 							</p>
 							<p>Third, the code may be doggone ugly. One project I worked on actually had a data type
 								called a FuckedString. Another project had started out using the convention of starting
 								member variables with an underscore, but later switched to the more standard “m_”. So
 								half the functions started with “_” and half with “m_”, which looked ugly. Frankly, this
-								is the kind of thing you solve in five minutes with a macro in Emacs, not by starting
+								is the kind of thing you solve in five minutes with a macro in <u>Emacs</u>, not by starting
 								from scratch.</p>
 							<p>It’s important to remember that when you start from scratch there is <b>absolutely no
 									reason</b> to believe that you are going to do a better job than you did the first
@@ -871,11 +871,11 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 								original version. </p>
 							<p><img decoding="async" hspace="4" align="left"
 									src="./Things You Should Never Do, Part I – Joel on Software_files/Lincoln_Center_Trees.jpg"
-									width="280" height="192">The old mantra <i>build one to throw away</i> is dangerous
+									width="280" height="192">The old <u>mantra</u> <i>build one to throw away</i> is dangerous
 								when applied to large scale commercial applications. If you are writing code
 								experimentally, you may want to rip up the function you wrote last week when you think
 								of a better algorithm. That’s fine. You may want to refactor a class to make it easier
-								to use. That’s fine, too. But <u>⑥throwing away the whole program is a dangerous folly</u>, and
+								to use. That’s fine, too. But <u>⑦throwing away the whole program is a dangerous folly</u>, and
 								if Netscape actually had some adult supervision with software industry experience, they
 								might not have shot themselves in the foot so badly.</p>
 							<p>Netscape...昔のウェブブラウザ。2008年2月にサポート終了。</p>
@@ -884,17 +884,34 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 							<p>Quattro Pro...Borland社が販売していた昔の表計算ソフト。</p>
 							<p>sweep under the rug...隠す</p>
 							<p>corollary...当然の帰結</p>
+							<p>brag...自慢する</p>
+							<p>patently...明らかに</p>
 							<p>au contraire...フランス語で「逆に」</p>
-							<p>Dodge Dart...アメリカのクライスラーがダッジブランドで1960年から1976年まで生産した大型乗用車</p>
+							<p>Dodge Dart...アメリカのクライスラーがダッジブランドで1960年から1976年まで生産した大型乗用車(Wikipedia)</p>
 							<p>yank out...引っこ抜く</p>
-							<p></p>
-							<p></p>
-							<p></p>
+							<p>factor...因数分解する</p>
+							<p>Juno project...筆者がかつて携わっていたプロジェクトと思われる（検索したがヒットしなかった）</p>
+							<p>Emacs...エディターの一種</p>
+							<p>mantra...信念</p>
+							<br/>
+							<hr/>
+							<h2>Useful expression</h2>
+							<p style="TEXT-ALIGN: center; FONT-SIZE: 120%; FONT-WEIGHT: bold">You might as well just close for business for the duration.</p>
+							<p>その期間ビジネスを停止するも同然だ。</p>
+							<p>We <strong>might as well</strong> do something＝We should do it because there is no better alternative. There is no reason not to do it.</p>
+							<p>might as well~を使って短文を作ってみましょう。</p>
+							<br/>
 							<h2>Questions</h2>
 							<ol>
-								<li>Translate underlined sentence ① to Japanese.</li>
-								<li>Translate underlined sentence ② to Japanese.</li>
-								<li>Translate underlined sentence ③ to Japanese.</li>
+								<li>下線部①を和訳してください。</li>
+								<li>下線部②を和訳してください。</li>
+								<li>下線部③を和訳してください。</li>
+								<li>下線部④を和訳してください。</li>
+								<li>下線部⑤を和訳してください。</li>
+								<li>下線部⑥を和訳してください。</li>
+								<li>下線部⑦の主張について、筆者が本文中で挙げているその根拠を端的に述べてください。</li>
+								<li>下線部⑦の主張について、それでもプログラマーが下線部⑥に陥ってしまいがちな理由を本文から3つ挙げてください。。</li>
+								<li>（余裕があれば考えてみてください）下線部⑥の主張についてあなたはどう思いますか？"build one to throw away"が許される状況はありうるでしょうか？それはどんな状況ですか？</li>
 							</ol>
 						</div><!-- .entry-content -->
 
